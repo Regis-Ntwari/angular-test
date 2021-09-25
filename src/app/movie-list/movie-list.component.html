@@ -1,0 +1,29 @@
+<div>
+<hot-table
+    [data]="movies"
+    [settings]="hotSettings"
+    (afterChange)="afterChange($event, hot)"
+    #hot>
+    <hot-column data="id" title="ID"></hot-column>
+    <hot-column data="budget" title="Budget"></hot-column>
+    <hot-column data="genres" title="Genres"></hot-column>
+    <hot-column data="homepage" title="Homepage"></hot-column>
+    <hot-column data="keywords" title="Keywords"></hot-column>
+    <hot-column data="original_language" title="Original Language"></hot-column>
+    <hot-column data="original_title" title="Original Title"></hot-column>
+    <hot-column data="overview" title="Overview"></hot-column>
+    <hot-column data="popularity" title="Popularity"></hot-column>
+    <hot-column data="production_companies" title="Production Companies"></hot-column>
+    <hot-column data="production_coutries" title="Production Countries"></hot-column>
+    <hot-column data="release_date" title="Release Date"></hot-column>
+    <hot-column data="revenue" title="Revenue"></hot-column>
+    <hot-column data="runtime" title="Runtime"></hot-column>
+    <hot-column data="spoken_languages" title="Spoken Languages"></hot-column>
+    <hot-column data="status" title="Status"></hot-column>
+    <hot-column data="tagline" title="Tagline"></hot-column>
+    <hot-column data="title" title="Title"></hot-column>
+    <hot-column data="vote_average" title="Average vote"></hot-column>
+    <hot-column data="vote_count" title="Number of votes"></hot-column>
+
+</hot-table>
+</div>

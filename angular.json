@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "2d5438c6-a1ac-4096-af08-89c4f864a8ba"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -91,7 +94,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/handsontable-pro/dist/handsontable.full.min.css"
             ],
             "scripts": []
           }
@@ -125,4 +128,5 @@
     }
   },
   "defaultProject": "ang-test"
+  
 }

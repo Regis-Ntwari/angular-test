@@ -10,6 +10,7 @@
     "e2e": "ng e2e"
   },
   "private": true,
+  "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
   "dependencies": {
     "@angular/animations": "~11.2.13",
     "@angular/common": "~11.2.13",
@@ -19,6 +20,9 @@
     "@angular/platform-browser": "~11.2.13",
     "@angular/platform-browser-dynamic": "~11.2.13",
     "@angular/router": "~11.2.13",
+    "@handsontable/angular": "^9.0.2",
+    "angular-handsontable": "^1.0.0-beta4",
+    "handsontable": "^9.0.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
