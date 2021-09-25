@@ -12,7 +12,6 @@ export class MovieListComponent implements OnInit {
   hotSettings : Handsontable.GridSettings = {
     renderAllRows : false,
     maxRows : 500,
-    colHeaders : ['ID', 'Budget', 'Genre', 'Homepage', 'Keywords'],
     manualColumnMove : true,
     manualColumnResize : true,
     height : 'auto',
